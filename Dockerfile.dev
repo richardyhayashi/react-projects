@@ -1,0 +1,29 @@
+# Base image.
+FROM node:22.3.0-alpine
+
+# Set evironment variables.
+ENV LANG=C.UTF-8
+
+# Import Arguments
+ARG REACT_APP_NAME
+ARG REACT_PORT
+ARG REACT_SRC_DIR
+ARG REACT_START_DEV_SERVER
+
+# Set up working directory.
+WORKDIR /app
+
+# Copy package.json file to working directory.
+COPY /src/ .
+
+# Install packages.
+RUN npm install
+
+# Copy directory.
+COPY /src .
+
+# Document exposed port.
+EXPOSE ${REACT_PORT}
+
+# Start app.
+ENTRYPOINT [ "npm", "run", "dev" ]
