@@ -2,5 +2,5 @@
 .env
 
 # Folders
-/node_modules/
-/buuild
+node_modules/
+build/
