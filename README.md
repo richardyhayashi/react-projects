@@ -6,6 +6,9 @@
 
 * 'https://uidesigndaily.com'
 
+### CDNjs
+
+* 'https://cdnjs.com'
 
 ## React App
 
