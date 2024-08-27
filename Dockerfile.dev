@@ -14,13 +14,13 @@ ARG REACT_START_DEV_SERVER
 WORKDIR /app
 
 # Copy package.json file to working directory.
-COPY /src/ .
+COPY /src${REACT_SRC_DIR}/package.json .
 
 # Install packages.
 RUN npm install
 
 # Copy directory.
-COPY /src .
+COPY /src${REACT_SRC_DIR} .
 
 # Document exposed port.
 EXPOSE ${REACT_PORT}

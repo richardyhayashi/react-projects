@@ -1,27 +1,32 @@
 # React Projects
 
-## YouTube
+## Links:
 
-`Code 15 React Projects - Complete Course` by `freeCodeCamp.org`, `John Smilga`
+### Design Ideas
 
-YouTube: `https://www.youtube.com/watch?v=a_7Z7C_JCyo&t=467s`
+* 'https://uidesigndaily.com'
 
-Source: 'https://github.com/john-smilga/react-projects'
 
-i. Intro
-ii. Starter Project Setup
-01. Birthday
-02.
-03.
-04.
-05.
-06.
-07.
-08.
-09
-10.
-11.
-12.
-13.
-14.
-15.
+## React App
+
+### Create React Project
+
+`$ npm create vite@latest {.|project-name} [-- --template react]`
+`$ cd project-name` if not in diectory
+`$ npm {i|install}`
+
+### Set Port
+
+In `vite.config.js`:<br>
+`export default defineConfig({`<br>
+`  ...`<br>
+`  server: {`<br>
+`    host: "0.0.0.0",`<br>
+`    port: 3000,`<br>
+`  },`<br>
+`  ...`<br>
+`})`
+
+### Start Server
+
+`$ npm run dev`
