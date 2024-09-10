@@ -1,4 +1,5 @@
-`Code 15 React Projects - Complete Course` by `freeCodeCamp.org`, `John Smilga`
+# Code 15 React Projects - Complete Course
+by `freeCodeCamp.org`, `John Smilga`
 
 YouTube: `https://www.youtube.com/watch?v=a_7Z7C_JCyo&t=467s`
 
