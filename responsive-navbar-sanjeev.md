@@ -26,7 +26,9 @@ Source: -
 ### Create Project
 
 `$ npx create-react-app responsive-navbar-sanjeev`
+
 or (if globally installed)
+
 `$ create-react-app responsive-navbar-sanjeev`
 `$ cd responsive-navbar-sanjeev`
 

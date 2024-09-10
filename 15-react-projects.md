@@ -1,14 +1,15 @@
 # Code 15 React Projects - Complete Course
+
 by `freeCodeCamp.org`, `John Smilga`
 
 YouTube: `https://www.youtube.com/watch?v=a_7Z7C_JCyo&t=467s`
 
 Source: 'https://github.com/john-smilga/react-projects'
 
- i. Intro
+i. Intro
 ii. Starter Project Setup
 01. Birthday
-02.
+02. Tours
 03.
 04.
 05.
@@ -22,3 +23,25 @@ ii. Starter Project Setup
 13.
 14.
 15.
+
+
+## Create React App
+
+`$ npm create vite@latest {.|project-name} -- --template react`
+
+### Edit 'vite.config.js'
+
+`export default defineConfig({`
+`  ...`
+`  server: {`
+`    host: "0.0.0.0",`
+`    port: 3000,`
+`  }`
+`  ...`
+`});`
+
+### Start App
+
+`$ npm run dev`
+
+## 01 Birthday
