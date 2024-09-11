@@ -10,7 +10,7 @@ i. Intro
 ii. Starter Project Setup
 01. Birthday
 02. Tours
-03.
+03. Reviews
 04.
 05.
 06.
@@ -44,4 +44,13 @@ ii. Starter Project Setup
 
 `$ npm run dev`
 
+## Install React-Icons
+
+`$ npm install react-icons --save`
+
 ## 01 Birthday
+
+## 02 Tours
+
+## 03 Reviews
+
