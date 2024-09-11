@@ -12,7 +12,7 @@ ii. Starter Project Setup
 02. Tours
 03. Reviews
 04. Accordion
-05.
+05. Menu
 06.
 07.
 08.
@@ -49,8 +49,7 @@ ii. Starter Project Setup
 `$ npm install react-icons --save`
 
 ## 01 Birthday
-
 ## 02 Tours
-
 ## 03 Reviews
-
+## 04 Accordion
+## 05 Menu
