@@ -13,7 +13,7 @@ ii. Starter Project Setup
 03. Reviews
 04. Accordion
 05. Menu
-06.
+06. Tabs
 07.
 08.
 09.
@@ -47,6 +47,16 @@ ii. Starter Project Setup
 ## Install React-Icons
 
 `$ npm install react-icons --save`
+
+## JSON Server
+
+### Install JSON Server
+
+`$ npm i json-server`
+
+### Run JSON Server
+
+`$ npx json-server --watch db.json -p 3500 ./data/db.json`
 
 ## 01 Birthday
 ## 02 Tours
